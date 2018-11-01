@@ -25,7 +25,7 @@ export default memo(function ListControls(props) {
   }
 
   return (
-    <dv className="controls">
+    <div className="controls">
       <input
         className="input-name"
         onKeyPress={handleKeyPress}
@@ -44,6 +44,6 @@ export default memo(function ListControls(props) {
         disabled={!hasSelectedItems}>
         Del
       </button>
-    </dv>
+    </div>
   );
 });
